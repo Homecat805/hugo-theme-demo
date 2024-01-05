@@ -395,6 +395,10 @@ body {
   margin-bottom: 2rem;
   padding: 0 1rem; }
 
+.cards-container {
+  position: sticky;
+  top: 3rem; }
+
 .card-container {
   margin-bottom: 2rem;
   padding: 0 1rem; }
@@ -484,7 +488,7 @@ a {
 
 @media (min-width: 1240px) {
   .stager aside {
-    width: 360px; } }
+    width: 340px; } }
 
 .copyright {
   padding: .75rem 1rem;
@@ -744,7 +748,8 @@ a {
 .content .content-header {
   text-align: center;
   border-bottom: 1px solid var(--baseof-bd);
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  padding: 1rem; }
   .content .content-header .title {
     color: var(--baseof-ft);
     font-size: 1.5rem;
